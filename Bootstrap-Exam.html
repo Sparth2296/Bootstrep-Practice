@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <style>
+    *{
+        text-decoration: none !important;
+    }
+    img{
+        transition: all 0.3s ease-in-out;
+        
+    }
+    img:hover{
+        filter: grayscale(0.3);
+        transition: all 0.3s ease-in-out;
+        scale: 1.05;
+    }
+    .card{
+        overflow: hidden;
+    }
+  </style>
+  <body>
+   
+    <!-- navbar sectino -->
+
+    <nav class="navbar navbar-expand-lg border">
+        <div class="container-fluid">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/014/414/668/non_2x/air-jordan-jumpman-logo-on-transparent-background-free-vector.jpg"
+            alt="" width="60px" height="60px">
+          <a class="navbar-brand fs-5" href="#">JORDAN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto my-0">
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-3" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#man">Man</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#woman">Woman</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#kids">Kids</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- blog section //////////////////////////// -->
+
+    <div class="container-fluid p-5" id="blog">
+        <h2 class="text-center mb-4">Latest Blogs</h2>
+        <div class="row">
+          <!-- Featured Blog -->
+          <div class="col-lg-3">
+            <div class="card mb-4">
+                <div class="card-header">Categories</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="#">Sneaker News</a></li>
+                  <li class="list-group-item"><a href="#">Style & Fashion</a></li>
+                  <li class="list-group-item"><a href="#">Basketball Trends</a></li>
+                  <li class="list-group-item"><a href="#">Limited Edition Drops</a></li>
+                </ul>
+              </div>
+
+              <div class="card">
+                <div class="card-header">Recent Posts</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="#">Top 5 Jordans of All Time</a></li>
+                  <li class="list-group-item"><a href="#">How to Style Air Jordans</a></li>
+                  <li class="list-group-item"><a href="#">Upcoming Jordan Releases 2025</a></li>
+                </ul>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">JORDAN</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="#">Top 5 Jordans of All Time</a></li>
+                  <li class="list-group-item"><a href="#">How to Style Air Jordans</a></li>
+                  <li class="list-group-item"><a href="#">Basketball Trends</a></li>
+                  <li class="list-group-item"><a href="#">Limited Edition Drops</a></li>
+                  <li class="list-group-item"><a href="#">Upcoming Jordan Releases 2025</a></li>
+                </ul>
+              </div>
+
+          </div>
+  
+          <!-- Sidebar -->
+          <div class="col-lg-9">
+
+            <div class="card mb-4">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Air-Jordan-Symbol.png" class="card-img-top"
+                  alt="Featured Blog">
+                <div class="card-body">
+                  <h5 class="card-title">The Evolution of Air Jordan Sneakers</h5>
+                  <p class="card-text">Discover how Air Jordans have transformed from a basketball essential to a streetwear
+                    icon. Explore the history, design, and cultural impact of this legendary sneaker line.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+          </div>
+        </div>
+  
+        <!-- More Blog Posts -->
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card mt-3">
+              <img
+                src="https://sneakernews.com/wp-content/uploads/2015/02/air-jordan-2015-all-star-collection.jpg?w=620&h=430&crop=1"
+                class="card-img-top" alt="Blog 1">
+              <div class="card-body">
+                <h5 class="card-title">Top 10 Air Jordans of 2024</h5>
+                <p class="card-text">A deep dive into the best Air Jordans released this year. Find out which pairs made
+                  the cut.</p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://static.nike.com/a/images/w_960,c_limit,q_auto,f_auto/b775dd7e-58d7-4d11-870e-b5f4e0fe4a85/street-snkrs.jpg"
+                class="card-img-top" alt="Blog 2">
+              <div class="card-body">
+                <h5 class="card-title">How to Style Your Jordans</h5>
+                <p class="card-text">Learn how to match your Jordans with the perfect outfit to keep your sneaker game
+                  strong.</p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mt-5">
+              <img src="https://shoewash.ca/wp-content/uploads/2024/05/Sneakers-as-a-Symbol-of-Subcultures-1024x585.webp"
+                class="card-img-top" alt="Blog 3">
+              <div class="card-body">
+                <h5 class="card-title">Sneaker Culture & Streetwear</h5>
+                <p class="card-text">Explore the intersection of sneaker culture and streetwear fashion in today's world.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body> 
+</html>
